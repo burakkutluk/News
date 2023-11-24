@@ -1,0 +1,148 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+
+:root {
+    --main-color: #343434;
+    --second-color: #28282B;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+header {
+    background-color: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+    float: right;
+}
+
+header ul{
+    display: flex;
+}
+
+header a {
+    color: rgb(218, 224, 230);
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+
+header .search {
+    background-color: var(--second-color);
+    border: 0;
+    font-size: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 30px;
+    margin-left: 150px;
+}
+
+
+form i {
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: var(--second-color);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 15%;
+}
+
+.container{
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.container .logo{
+    font-size: 40px;
+    color: red;
+    margin-left: 20px;
+}
+
+.container ul{
+    margin-top: 100px;
+    margin-left: -30px;
+}
+
+.container ul li {
+    padding: 10px;
+}
+
+.container ul li a{
+    color: #92929c;
+    font-size: 30px;
+}
+
+.container ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.container ul li:hover{
+    background-color: #57575b;
+    cursor: pointer;
+}
+
+main{
+    float: right;
+    width: 86%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 350px;
+    margin: 30px;
+    background-color: var(--second-color);
+    padding: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .source{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.card .source h1{
+    color: #bab4b4;
+    font-size: 22px;
+}
+
+.card .source span{
+    color: #bab4b4;
+}
+
+.card .overview{
+    color: #fff;
+    padding: 8px;
+    font-size: 20px;
+    position: relative;
+}
